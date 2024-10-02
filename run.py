@@ -63,8 +63,7 @@ class Runner:
                                                                                   domain=cfg.dataset.domain,
                                                                                   shift=cfg.dataset.shift_type,
                                                                                   generate=cfg.dataset.generate)
-            import ipdb;
-            ipdb.set_trace()
+            
             read_meta_info(meta_info, cfg)
 
             cfg.model.dropout_rate = args.dropout
