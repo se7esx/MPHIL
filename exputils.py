@@ -128,7 +128,7 @@ def get_dump_path(params):
     if params.exp_id == '':
 
         exp_id = datetime.now().strftime('%H-%M-%S.%f')[:-3]
-        exp_id += ''.join(random.sample('abcdefghijklmnopqrstuvwxyz', 3))
+       
 
         params.exp_id = exp_id
 
